@@ -1,0 +1,109 @@
+.banner__main {
+    .banner__span {
+        h2 {
+            padding-top: 16px;
+            color: #232E35;
+            margin: 0px;
+
+            span {
+                color: #7E74F1;
+            }
+        }
+
+        p {
+            margin: 0px;
+            padding-top: 30px;
+        }
+
+        .social_logos {
+            padding-top: 20px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            img {
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+
+    .banner__img {
+        position: relative;
+        width: 341px;
+        height: 398px;
+        transform: rotate(-9.545deg);
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: var(--purple, #7E74F1);
+
+        .banner__img_2 {
+            position: absolute;
+            width: 336px;
+            height: 400px;
+            flex-shrink: 0;
+            border-radius: 16px;
+            transform: rotate(17deg);
+            background: var(--purple-lighter, #EAE6FE);
+
+            img {
+                width: 150px;
+                height: 150px;
+                position: absolute;
+                top: 0;
+                transform: translate(50%, 75%);
+            }
+        }
+    }
+}
+
+
+// Services Section
+.bg_services {
+    background: #FBFBFB;
+    padding: 70px 0px;
+    margin-top: 70px;
+
+    .services__sec {
+        .row{
+            justify-content: space-between;
+        }
+
+        .services__main {
+            text-align: center;
+            margin-bottom: 50px;
+
+            p {
+                margin: 0px;
+            }
+        }
+
+        .services__card {
+            border-radius: 8px;
+            background: #FFF;
+            padding: 53px 55px;
+            text-align: center;
+            width: 370px;
+            cursor: pointer;
+            p{
+                margin: 0px;
+            }
+            &:hover{
+                border: 1px solid #7E74F1;
+            }
+        }
+    }
+}
+
+// Work Experiences
+.work_exp{
+    margin-top: 70px;
+    .work_head{
+        p{
+            margin: 0px;
+        }
+        h3{
+            margin: 0px;
+        }
+    }
+}
